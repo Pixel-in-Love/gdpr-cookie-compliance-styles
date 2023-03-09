@@ -1,0 +1,23 @@
+/*** estilos banner cookies ***/
+#moove_gdpr_cookie_info_bar {
+	max-height: none !important;
+}
+
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container {
+    padding: 24px 40px;
+}
+
+#moove_gdpr_cookie_info_bar .moove-gdpr-cookie-notice li {
+	line-height: 120%;
+}
+
+#moove_gdpr_cookie_info_bar .moove-gdpr-button-holder {
+	display: flex;
+	flex-direction: column;
+	align-items: initial;
+	adding-top: 1rem;
+}
+
+#moove_gdpr_cookie_info_bar .moove-gdpr-button-holder button:not(:first-child) {
+	margin-top: 1rem !important;
+}
